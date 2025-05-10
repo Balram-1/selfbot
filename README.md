@@ -1,57 +1,78 @@
-#[Discord] - Crypto SelfBot
-A feature-rich, cross-platform Discord SelfBot written in Python, with a special focus on cryptocurrency wallet and automation features.
 
--Overview
-Crypto SelfBot is designed for Windows, Linux, and macOS. It brings powerful Litecoin wallet management and crypto utilities directly into your Discord account, alongside a full suite of moderation, utility, and fun commands.
-Easily manage your Litecoin wallet, check balances, generate QR codes, and send LTC-all from Discord.
 
--🚀 Crypto Features
-Litecoin Wallet Generation: Instantly create a secure LTC wallet and private key.
-Send Litecoin: Transfer LTC to any address using real-time USD conversion and customizable fees.
-Receive Litecoin: Display your LTC address or a QR code for easy deposits.
-Balance Inquiry: Check confirmed/unconfirmed balances and total received for any address, with USD conversion.
-Transaction Transparency: See transaction IDs and direct block explorer links after every send.
-Fee Control: Set custom network fees for your transactions.
-Full Command Set: All crypto features are accessible via simple Discord commands.
 
-#🛠️ All Commands
-Crypto Wallet & Utility
-genwallet - Generate a new Litecoin wallet (private key shown in console).
-sendltc <address> <usd_amount> - Send LTC to an address (amount in USD).
-receive - Show your LTC deposit address.
-receiveqr - Show your LTC deposit address as a QR code.
-bal [address] - Show LTC balance (confirmed, unconfirmed, total received) for your wallet or any address.
+---
 
-Social & Info
-balramog - Show my social networks and a lofi GIF.
+# **Discord Crypto SelfBot**
 
-General & Utility
-changeprefix <prefix> - Change the bot's prefix.
-shutdown - Stop the selfbot.
-uptime - Show how long the selfbot has been running.
-remoteuser <@user> - Authorize a user for remote command execution.
-copycat ON|OFF <@user> - Auto-reply with the same message as a user.
-ping - Show bot latency.
-pingweb <url> - Ping a website and return the HTTP status code.
-geoip <ip> - Lookup IP location.
-tts <text> - Convert text to speech (.wav).
-qr <text> - Generate a QR code from text.
+A **feature-rich, cross-platform Discord SelfBot** written in Python, with a **powerful suite of cryptocurrency tools** and automation features.
 
-...and many more moderation, automation, and fun commands.
+---
 
-#⚙️ Setup & Installation
+## **🌟 Overview**
 
-1. Clone the Repository
+**Crypto SelfBot** works on **Windows, Linux, and macOS**.  
+It brings **secure Litecoin wallet management** and crypto utilities right into your Discord account, alongside a full set of moderation, utility, and fun commands.
+
+> **Explore more tools and premium resources at [UltimateTools](https://ultimatetools.mysellauth.com/)!**
+
+---
+
+## **🚀 Crypto Features**
+
+- **Litecoin Wallet Generation:** Instantly create a secure LTC wallet and private key.
+- **Send Litecoin:** Transfer LTC to any address using real-time USD conversion and customizable fees.
+- **Receive Litecoin:** Display your LTC address or a QR code for easy deposits.
+- **Balance Inquiry:** Check confirmed/unconfirmed balances and total received for any address, with USD conversion.
+- **Transaction Transparency:** See transaction IDs and direct block explorer links after every send.
+- **Fee Control:** Set custom network fees for your transactions.
+- **All via Discord:** Access all crypto features with simple Discord commands.
+
+---
+
+## **🛠️ All Commands**
+
+### **Crypto Wallet & Utility**
+- `genwallet` - **Generate a new Litecoin wallet** (private key shown in console).
+- `sendltc  ` - **Send LTC** to any address (amount in USD).
+- `receive` - **Show your LTC deposit address.**
+- `receiveqr` - **Show your LTC deposit address as a QR code.**
+- `bal [address]` - **Show LTC balance** (confirmed, unconfirmed, total received) for your wallet or any address.
+
+### **Social & Info**
+- `balramog` - **Show my social networks and a lofi GIF.**
+
+### **General & Utility**
+- `changeprefix ` - Change the bot's prefix.
+- `shutdown` - Stop the selfbot.
+- `uptime` - Show how long the selfbot has been running.
+- `remoteuser ` - Authorize a user for remote command execution.
+- `copycat ON|OFF ` - Auto-reply with the same message as a user.
+- `ping` - Show bot latency.
+- `pingweb ` - Ping a website and return the HTTP status code.
+- `geoip ` - Lookup IP location.
+- `tts ` - Convert text to speech (.wav).
+- `qr ` - Generate a QR code from text.
+- ...and many more moderation, automation, and fun commands!
+
+---
+
+## **⚙️ Setup & Installation**
+
+**1. Clone the Repository**
+```bash
 git clone https://github.com/Balram-1/Discord-Crypto-SelfBot.git
 cd Discord-Crypto-SelfBot
+```
 
-2. Install Requirements
+**2. Install Requirements**
+```bash
 pip install -r requirements.txt
+```
 
-3. Configure the Bot
-Edit config/config.json with your Discord token, prefix, and any custom settings:
-
-json
+**3. Configure the Bot**  
+Edit `config/config.json` with your Discord token, prefix, and any custom settings:
+```json
 {
   "token": "YOUR-DISCORD-TOKEN",
   "prefix": ".",
@@ -66,34 +87,66 @@ json
     "message": "I'm currently away."
   }
 }
-4. Run the SelfBot
-bash
+```
+
+**4. Run the SelfBot**
+```bash
 python main.py
-💡 Usage Tips
-Crypto commands are available only to you (the account owner).
+```
 
-Private keys are shown in the console only-never share them!
+---
 
-Transaction fees can be customized in the code for best results.
+## **💡 Usage Tips**
 
-Remote command execution: Add user IDs to remote-users in your config to allow trusted users to run commands.
+- **Crypto commands are available only to you** (the account owner).
+- **Private keys are shown in the console only** - never share them!
+- **Transaction fees** can be customized in the code for best results.
+- **Remote command execution:** Add user IDs to `remote-users` in your config to allow trusted users to run commands.
 
-📚 Example Crypto Commands
-Generate wallet: .genwallet
-Send LTC: .sendltc ltc1qaddresshere 5
-Show your address: .receive
-Check balance: .bal or .bal ltc1qaddresshere
+---
 
-#❗ Disclaimer
-This project is for educational and personal use only.
-Never share your private keys or token.
+## **📚 Example Crypto Commands**
+
+```shell
+.genwallet           # Generate a new wallet
+.sendltc ltc1q... 5  # Send $5 worth of LTC to an address
+.receive             # Show your LTC address
+.receiveqr           # Show QR code for your LTC address
+.bal                 # Check your wallet balance
+.bal ltc1q...        # Check any address balance
+```
+
+---
+
+## **❗ Disclaimer**
+
+This project is for **educational and personal use only**.  
+**Never share your private keys or token.**  
 Use responsibly and at your own risk.
 
-#🤝 Contributions & Support
-Open an issue or pull request for suggestions or improvements.
+---
 
-For help, contact balramog on GitHub.
+## **🤝 Contributions & Support**
 
-Enjoy managing your crypto directly from Discord!
+- Open an issue or pull request for suggestions or improvements.
+- For help, contact [balramog](https://github.com/Balram-1) on GitHub.
+- **Explore more tools at [UltimateTools](https://ultimatetools.mysellauth.com/)!**
 
-Inspired by and improved upon classic Discord selfbots, now with powerful crypto automation.
+---
+
+**Enjoy managing your crypto directly from Discord!**
+
+---
+
+> _For Markdown formatting tips, see the [GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) or the [Markdown Guide](https://www.markdownguide.org/basic-syntax/)_.
+
+Citations:
+[1] https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[2] https://www.markdownguide.org/basic-syntax/
+[3] https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet
+[4] https://docs.github.com/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github
+[5] https://stackoverflow.com/questions/66350808/bold-text-within-multi-line-code-in-markdown-md-file
+
+
+**https://ultimatetools.mysellauth.com/**
+---
