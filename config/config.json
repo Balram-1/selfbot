@@ -1,0 +1,22 @@
+{
+    "token": "ADD YOUR TOKEN HER",
+    "prefix": ".",
+    "remote-users": [],
+    "autoreply": {
+        "messages": [
+            "https://github.com/Balram-1"
+        ],
+        "channels": [],
+        "users": []
+    },
+    "afk": {
+        "enabled": false,
+        "message": "I am currently AFK. I will respond as soon as possible!"
+    },
+    "copycat": {
+        "users": []
+    },
+    "tatum_api_key": "ADD YOUR TATUM KEY FROM TATUM.IO",
+    "ltc_address": "",
+    "ltc_private_key": ""
+}
