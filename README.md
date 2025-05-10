@@ -138,15 +138,9 @@ Use responsibly and at your own risk.
 
 ---
 
-> _For Markdown formatting tips, see the [GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) or the [Markdown Guide](https://www.markdownguide.org/basic-syntax/)_.
-
-Citations:
-[1] https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[2] https://www.markdownguide.org/basic-syntax/
-[3] https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet
-[4] https://docs.github.com/enterprise-cloud@latest/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github
-[5] https://stackoverflow.com/questions/66350808/bold-text-within-multi-line-code-in-markdown-md-file
 
 
-**https://ultimatetools.mysellauth.com/**
+**OUR SITE=https://ultimatetools.mysellauth.com/**
+![image](https://github.com/user-attachments/assets/6ac7e938-4d18-48c9-9a80-1123ba52da1b)
+
 ---
